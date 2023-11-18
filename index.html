@@ -17,7 +17,7 @@
   <body>
    <!-- nav start  -->
         <nav class="navbar navbar-expand-lg  fixed-top gap-5" style="background-color:#171495;">
-            <a class="navbar-brand" style="margin: 10px;margin-left: 20px;" href="#"> <img src="./resources/Group 2.png" class="img-fluid" style="height: 50px; width: 200px;" alt=""></a>
+            <a class="navbar-brand" style="margin: 10px;margin-left: 20px;" href="#"> <img src="./resources/Group 2.png" class="img-fluid" style="height: 40px; width: 150px;" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav  mt-3 mt-lg-0">
                 <form class="form-inline my-3 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <input class="form-control mr-sm-2" style="margin:8px ;" type="search" placeholder="Search">
                   </form>
     
                 <li class="nav-item active">
@@ -59,8 +59,8 @@
             <h5 >"Ring in the Future of Communication."</h5>
           <button style="background-color: #171495; height: 50px; width: 150px; color: white; border-radius: 10px; padding: 5px;box-shadow: 5px 5px 8px gray;">View all</button>
         </div>
-        <div class="banner-img mt-5">
-            <img src="./resources/Iphone Image.png" style="height:100vh ; width:auto;" class="img-fluid" alt="" srcset="">
+        <div class="banner-img "style="margin:80px;">
+            <img src="./resources/Iphone Image.png" style="height:100vh; width:auto;" class="img-fluid" alt="" srcset="">
         </div>
        
     </div>
@@ -73,57 +73,60 @@
 
 
   <!-- second part start  -->
-<section class="second-part mt-5">
-    
-    <div class="first-container">
-        <!-- First Section -->
-      <div class="half-one">
-        <div class="card-1">
-            <div class="second-half-part1">
-                <img class="img-fluid" style="height:200px; width:300px;"  src="./resources/ipad.png" alt="Image 1">
-                </div>
-                <div class="m-5 p-5">
-                <h1>IPad</h1>
-                  <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Dolor suscipit sed ut.</p>
-                </div>
-              </div>
-        </div>
-       
-        <!-- Second Section -->
-        <div class="card-1"  style="background-color:#ADC2D7;">
-            <div class="second-half-part1">
-                <img class="img-fluid" style="height:200px; width:300px;"  src="./resources/Iphone 14 pro 1.png" alt="Image 1">
-                </div>
-                <div>
-                <h1>Apple <br> Airpods <br> <span style="font-weight:bold ;"> Max</span></h1>
-                  <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Dolor suscipit sed ut.</p>
-                </div>
-              </div>
-        </div>
-     
-       
-      <div class="card-1"  style="background-color: #EDEDED;">
-        
-            <div style="background-color: #EDEDED;" >
-            <h1 class="p-3">Macbook <br> <span style="font-weight:bold ;">Air</span></h1>
-              <p class="p-2">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Dolor suscipit sed ut.</p>
-              <button style="background-color: #171495; height: 50px; width: 120px; color: white; border-radius: 5px; padding: 5px;box-shadow: 5px 5px 8px gray; margin-left: 10px;">Shop now</button>
+  
+
+<div class="container mt-5">
+  <div class="row">
+      <!-- First and Second Sections -->
+      <div class="col-md-6">
+          <!-- First Section -->
+          <div class="section-1 d-flex">
+             <div>
+              <img class="img-fluid" style="height:200px; width:300px;"  src="./resources/ipad.png" alt="Image 1">
             </div>
-            <div class="second-half-part1">
-                <img class="img-fluid" style="height:300px; width:400px;"  src="./resources/Group 6.png" alt="Image 1">
-                </div>
-                
+            <div>
+              <h1>IPad</h1>
+             
+              <p>The iPad, a revolutionary device by Apple,<br> has redefined the way we interact with technology.</p>
+              </div>
           </div>
           
-    </div>
-  
-      
-</section> 
+          <!-- Second Section -->
+          <div class="section-2 d-flex mt-5" style="background-color:#ADC2D7;">
+              <!-- Your content for the second section goes here -->
+           <div>
+            <img class="img-fluid" style="height:200px; width:300px;"  src="./resources/Iphone 14 pro 1.png" alt="Image 1">
+           </div>
+             <div>
+              <h1>Apple <br> Airpod <br> <span style="font-weight:bold ;"> Max</span></h1>
+              <p>AirPods, the epitome of wireless audio innovation <br> redefine the way you experience music. With their seamless connection, immersive sound quality, and sleek design, </p>
+             </div>
+          </div>
+      </div>
+
+      <!-- Third Section -->
+      <div class="col-md-6"  style="background-color: #EDEDED;">
+          <!-- Your content for the third section goes here -->
+          <div class="section-3 d-flex mt-5">
+           <div>
+            <h1 class="p-3">Macbook <br> <span style="font-weight:bold ;">Air</span></h1>
+            <p class="p-2">The MacBook, an epitome of elegance and performance,<br> combines cutting-edge technology with premium design to deliver a seamless computing experience.</p>
+            <button style="background-color: #171495; height: 50px; width: 120px; color: white; border-radius: 8px; padding: 5px;box-shadow: 5px 5px 8px gray; margin-left: 10px; margin: 10px;">Shop now</button>
+           </div>
+           <div>
+            <img class="img-fluid" style="height:250px; width:400px;"  src="./resources/Group 6.png" alt="Image 1">
+           </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
 
   <!-- second part end  -->
 
 <!-- category part start  -->
-<section style="padding:80px 100px ;">
+<section style="padding:80px;">
     <div class="category-names m-2">
         <h3>Browse by category</h3>
     </div>
@@ -245,7 +248,7 @@
 
 <!-- last part -->
 
-<div class="last-part-container">
+<div class="last-part-container " style="overflow:hidden ;">
  
 <div class="part-one">
     <img style="height:400px ; width:-400px; padding-left:-200px;" src="./resources/image 19.png" alt="" srcset="">
@@ -274,31 +277,31 @@
       </div>
       
       <!-- Second Column -->
-      <div class="col-md mb-4">
-        <div class="container p-4">
+      <div class="col-md mb-2">
+        <div class="container p-2">
           <section class="mb-4">
            <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a style="color:white ; margin: 10px;" href="#!" role=""
       ><i class="fab fa-facebook-f"></i
     ></a>
 
     <!-- Twitter -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" 
+    <a style="color:white ; margin: 10px;" href="#!" 
       ><i class="fab fa-twitter"></i
     ></a>
 
     <!-- Google -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+    <a style="color:white ; margin: 10px;" href="#!" 
       ><i class="fab fa-google"></i
     ></a>
 
     <!-- Instagram -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+    <a style="color:white ; margin: 10px;" href="#!" 
       ><i class="fab fa-instagram"></i
     ></a>
 
     <!-- Linkedin -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+    <a style="color:white ; margin: 10px;" href="#!" 
       ><i class="fab fa-linkedin-in"></i
     ></a>
           </section>
@@ -306,9 +309,9 @@
       </div>
       
       <!-- Third Column -->
-      <div class="col-md mb-4">
-        <ul class="list-unstyled mb-0">
-          <!-- Links -->
+      <div class="col-md mb-4 align-content-center">
+        <ul class="list-unstyled mb-0 ">
+          
           <li><a style="text-decoration:none ; color: #ADC2D7;" href="#!">Services</a></li>
           <li><a style="text-decoration:none ;  color: #ADC2D7;" href="#!" >Gift card</a></li>
           <li><a style="text-decoration:none ;  color: #ADC2D7;" href="#!">Bonus program</a></li>
@@ -321,7 +324,7 @@
       <!-- Fourth Column -->
       <div class="col-md mb-4">
        
-        <ul class="list-unstyled mb-0">
+        <ul class="list-unstyled mb-0 text-c">
           
           <li ><a style="text-decoration:none ;  color: #ADC2D7;" href="#!" >Terms and condition</a></li>
           <li><a style="text-decoration:none ;  color: #ADC2D7;" href="#!" >Find an order</a></li>
